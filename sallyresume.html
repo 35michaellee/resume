@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Here you can find Sally contact information">
+    <title>Sally contact</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+
+    <script type="text/babel">
+        function App(props) {
+            console.log(props)
+            return (
+                <span>
+                    {props.children}
+                </span>
+            );
+        }
+
+
+        ReactDOM.render(
+            <App >
+                <h2>School Background</h2>
+                <h3>College of Idaho</h3>
+                <p class="datedata">Bachelor of Science in Computer Science and Physics Graduated Fall 2016</p>
+                <ul>
+                    <li>Class of 2016, magna cum laude</li>
+                    <li>Double majored with a minor in Business Administration </li>
+                    <li>3 years of study in upper level Computer Science Mathematics and Physics </li>
+                </ul>
+                <p class="datedata">Bachelor of Science in Computer Science and Physics Graduated Fall 2016</p>
+                <h3>College of Southern Idaho</h3>
+                <p class="datedata">Associates Degree Graduated Fall 2013</p>
+                <ul>
+                    <li> General Education and arts full-filled for Specialized future study Goals.</li>
+                </ul>
+            </App >,
+            document.querySelector('#education'));
+
+        ReactDOM.render(
+            <App >
+                <h2>Executive Summary</h2>
+                <p>Conscientious problem-solver, and objective thinker. Excels at overseeing projects. A personable, and diplomatic employee. Enjoys taking ideas, shaping and editing them, and creating corporate value. Always looking to grow and adapt.</p>
+
+            </App >,
+            document.querySelector('#executiveSummary'));
+        ReactDOM.render(
+            <App >
+                <h2>Skills</h2>
+                <ul>
+                    <li>AWS cloud services (2 years)</li>
+                    <li>JS/NodeJS/ReactJS,/Query(4 years)</li>
+                    <li>Python/Django(2 years)</li>
+                    <li>SQL/noSQL/MySQL(2 years)</li>
+                </ul>
+            </App >,
+            document.querySelector('#skills'));
+        ReactDOM.render(
+            <App >
+                <h2>How To Contact Me</h2>
+                <p> Address: 2620 Griffin Ave. Los Angeles, Ca, United States 90031</p>
+                <p> Phone: (208) 404-4640</p>
+                <p> Email: michael.lee.esparza@gmail.com</p>
+            </App >,
+            document.querySelector('#contact'));
+        ReactDOM.render(
+            <App >
+                <h2>Personal Referneces</h2>
+                <p> Braxton Tulin, CEO Convirtio & Savant Software. (123) 456-7890
+                    braxton@savant.capital</p>
+                <p>Mark Seed, CEO MSI inc.(123) 456-7890
+                    mark@markseedinc.com</p>
+
+            </App >,
+            document.querySelector('#references'));
+        ReactDOM.render(
+            <App >
+                <h2>Relevent Experience</h2>
+                <h3>Software Engineer/Project Manager</h3>
+                <p class='datedata'>Savant Software/Project Manager. | September 2019 - present</p>
+                <ul>
+                    <li>Built data streams with Kinesis data streams and Firehouse for Machine Learning team with S3 and DynomoDB.</li>
+                    <li>Built commodity trading applications with DynomoDB, Lamba, EC2 instaces using Python(Boto3 and aws sdk), NodeJS.</li>
+                    <li>Managed tasks , code deployment, and user access for AWS and JIRA</li>
+                </ul>
+            <h3>IT Technician  </h3>
+                <p class='datedata'>College of Idaho| August 2013 - June 2016</p>
+                <ul>
+                    <li>educational work study for Computer Science Students</li>
+                    <li>accompanied the network administrator and other IT professionals working for the college in large projects including School system networking, user access, and permissions. </li>
+                    <li>helped repair malware infected devices and hardware issues presented by students and staff.</li>
+                </ul>
+            </App >,
+            document.querySelector('#experience'));
+
+    </script>
+
+    <header>
+        <h1 class="title">
+            <div class="image-cropper">
+            <a href="https://ibb.co/FVdWgjb"><img id="profilepic" src="https://i.ibb.co/zJt5G0h/39307990-2088774638117479-3057305661441310720-n-1.jpg" alt="39307990-2088774638117479-3057305661441310720-n-1" border="0"></a>
+            </div>
+        Michael Lee Esparza</h1>
+    </header>
+    <main>
+        <section id="executiveSummary"></section>
+        <section id="education"></section>
+        <section id="skills"></section>
+        <section id="contact"></section>
+        <section id="references"></section>
+        <section id="experience"></section>
+        
+
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>
+
+
+
+<!--- 
+<main>
+    <section id="introduction">
+        <p>Hi I'm Sally I'm 25 and below this line you'll find more information about me.</p>
+    </section>
+    <br>
+    <section id="Education">
+        <p>I have studied at:</p>
+        <ul>
+            <li>IES BEZMILIANA</li>
+            <li>Minnesota University</li>
+        </ul>
+    </section>
+    <br>
+    <section id="works">
+        <p>I have worked at:</p>
+        <div id="works_list">
+            <ul>
+                <li>Github as Engineer during 2018 and there I have to
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </li>
+                <li>Jetbrains as Project manager during 2019 and I'm still working there. My work consist in
+                    A assumenda autem dolorem doloremque
+                </li>
+            </ul>
+        </div>
+    </section>
+    </br>
+    <section id="Contact-section">
+        <p>My contact information: </p>
+        <address id="Contact-info">
+            <p>My name is Sally</p>
+            <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
+            <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
+        </address>
+    </section>
+</main>
+<div id="img">
+    <img src="https://ibb.co/FVdWgjb"" alt="Malaga Panoramic">
+
+</div>
+--->

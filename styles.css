@@ -1,0 +1,33 @@
+section {
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+}
+body{
+    margin: 30px;
+    text-align: center;'c
+    color: green;
+  }
+
+#executiveSummary{
+    color: green;
+
+}
+#education {
+    
+}
+#skills {
+    color: green;
+}
+#contact{
+
+   
+}
+#references{
+        
+}
+#experience{
+
+}
