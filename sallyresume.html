@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Here you can find Sally contact information">
-    <title>Sally contact</title>
+    <title>Online Resume</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -15,6 +15,9 @@
     </script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
     <script type="text/babel">
         function App(props) {
@@ -92,7 +95,7 @@
                     <li>Built commodity trading applications with DynomoDB, Lamba, EC2 instaces using Python(Boto3 and aws sdk), NodeJS.</li>
                     <li>Managed tasks , code deployment, and user access for AWS and JIRA</li>
                 </ul>
-            <h3>IT Technician  </h3>
+                <h3>IT Technician  </h3>
                 <p class='datedata'>College of Idaho| August 2013 - June 2016</p>
                 <ul>
                     <li>educational work study for Computer Science Students</li>
@@ -105,22 +108,36 @@
     </script>
 
     <header>
-        <h1 class="title">
-            <div class="image-cropper">
-            <a href="https://ibb.co/FVdWgjb"><img id="profilepic" src="https://i.ibb.co/zJt5G0h/39307990-2088774638117479-3057305661441310720-n-1.jpg" alt="39307990-2088774638117479-3057305661441310720-n-1" border="0"></a>
-            </div>
-        Michael Lee Esparza</h1>
+        
+        <div id="name">
+        <h1 id="topName"class="title">
+            Michael
+        </h1>
+        <h1 id="bottomName" class="title">
+            Esparza
+        </h1>
+        <h2 id="jobTitle">Software Engineer</h2>
+    </div>
+       
     </header>
     <main>
-        <section id="executiveSummary"></section>
-        <section id="education"></section>
-        <section id="skills"></section>
-        <section id="contact"></section>
-        <section id="references"></section>
-        <section id="experience"></section>
-        
-
+        <div id="right" class="column">
+            <div class="image-cropper">
+                <img id="profilepic"
+                            src="https://i.ibb.co/zJt5G0h/39307990-2088774638117479-3057305661441310720-n-1.jpg"
+                            alt="39307990-2088774638117479-3057305661441310720-n-1" >
+               
+            </div>
+            <section id="executiveSummary"></section>
+            <section id="skills"></section>
+            <section id="contact"></section>
+            <section id="references"></section>
         </div>
+        <div id="left" class="column">
+            <section id="education"></section>
+            <section id="experience"></section>
+        </div>
+        
     </main>
 
 
@@ -128,48 +145,3 @@
 </body>
 
 </html>
-
-
-
-<!--- 
-<main>
-    <section id="introduction">
-        <p>Hi I'm Sally I'm 25 and below this line you'll find more information about me.</p>
-    </section>
-    <br>
-    <section id="Education">
-        <p>I have studied at:</p>
-        <ul>
-            <li>IES BEZMILIANA</li>
-            <li>Minnesota University</li>
-        </ul>
-    </section>
-    <br>
-    <section id="works">
-        <p>I have worked at:</p>
-        <div id="works_list">
-            <ul>
-                <li>Github as Engineer during 2018 and there I have to
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </li>
-                <li>Jetbrains as Project manager during 2019 and I'm still working there. My work consist in
-                    A assumenda autem dolorem doloremque
-                </li>
-            </ul>
-        </div>
-    </section>
-    </br>
-    <section id="Contact-section">
-        <p>My contact information: </p>
-        <address id="Contact-info">
-            <p>My name is Sally</p>
-            <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
-            <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
-        </address>
-    </section>
-</main>
-<div id="img">
-    <img src="https://ibb.co/FVdWgjb"" alt="Malaga Panoramic">
-
-</div>
---->
