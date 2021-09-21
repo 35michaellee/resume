@@ -98,3 +98,29 @@ body{
   
 
 }
+
+
+@media (max-width: 800px) {
+    #left{
+        text-align: left;
+        display: block;
+        left: 40px;
+        background-color: #E8FFFF;
+        width: 300px;
+        
+    }
+}
+.btn {
+    background-color: #E8FFF;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  
